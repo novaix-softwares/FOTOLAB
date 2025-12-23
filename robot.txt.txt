@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary files (optional)
+Disallow: /script.js
+Disallow: /style.css
+
+# Sitemap location
+Sitemap: https://USERNAME.github.io/fotolab/sitemap.xml
