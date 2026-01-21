@@ -1,0 +1,1195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>FOTOLAB Pakistan | Buy Cameras, Lenses & Photography Equipment Online</title>
+  <meta name="description" content="FOTOLAB Pakistan offers..." />
+  <meta name="description" content="Buy original DSLR & mirrorless..." />
+  <meta name="description"
+    content="FOTOLAB Pakistan offers original cameras, lenses, lighting and photography accessories. Compare products, expert support & fast delivery." />
+  <meta name="keywords"
+    content="camera shop Pakistan, buy camera online Pakistan, DSLR camera price Pakistan, photography accessories, Fotolab Pakistan" />
+  <meta name="author" content="FOTOLAB Pakistan" />
+  <meta name="description"
+content="Buy original DSLR & mirrorless cameras, lenses, lighting and photography accessories online in Pakistan. Trusted since 1991." />
+
+
+  <!-- Open Graph (Social + Google) -->
+  <meta property="og:title" content="FOTOLAB Pakistan – Professional Camera Store" />
+  <meta property="og:description"
+    content="Buy cameras, lenses, lighting & studio equipment from FOTOLAB Pakistan." />
+  <meta property="og:type" content="website" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="canonical" href="https://https://novaix-softwares.github.io/FOTOLAB/" />
+
+<meta property="og:url" content="https://https://novaix-softwares.github.io/FOTOLAB/" />
+<meta property="og:image" content="https://https://novaix-softwares.github.io/FOTOLAB/assets/cover.jpg" />
+
+
+</head>
+
+<body>
+
+   <!-- Preloader -->
+  <div id="preloader">
+    <a class="navbar-brand" href="#">
+      <i id="camera-logo" class="text-info fa-regular fa-camera"></i> FOTOLAB
+    </a>
+  </div>
+
+  <!--  Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid px-3 d-flex align-items-center">
+
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i id="camera-logo" class="text-info fa-regular fa-camera me-2"></i>
+      FOTOLAB
+    </a>
+
+    <button class="navbar-toggler ms-auto" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productsSection">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutmodal">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" id="compareBtn">Compare</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a></li>
+        <!-- Corrected Login -->
+        <li class="nav-item" id="loginNav">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+        </li>
+
+        <!-- Corrected Profile -->
+        <li class="nav-item d-none" id="profileNav">
+          <a class="nav-link" href="#" id="profileBtn">
+            Hi, <span id="navbarUsername"></span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+  <!--  Navbar End -->
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero d-flex align-items-center justify-content-center text-center text-light hero-main">
+    <div class="container ">
+      <div class="hero-content">
+        <h1 class="hero-main-line display-4 fw-bold animate__animated animate__fadeInDown">
+          Capture Every Moment in Perfection
+        </h1>
+        <p class="hero-line lead  animate__animated animate__fadeInUp">
+          Explore the best cameras, compare top brands, and find the gear that matches your creativity.
+        </p>
+
+        <div class="hero-search mx-auto mb-4 animate__animated animate__fadeInUp">
+          <input type="text" class="form-control form-control-lg rounded-pill shadow" id="heroSearch"
+            placeholder="Search cameras, brands or accessories...">
+        </div>
+        <!-- Filters -->
+        <div class="hero-filters row mb-3">
+          <div class="col-md-6">
+            <select id="categorySelect" class="form-select">
+              <option value="all">All Categories</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <select id="brandSelect" class="form-select">
+              <option value="all">All Brands</option>
+            </select>
+          </div>
+        </div>
+
+        <a href="#productsRow" class="btn btn-lg btn-info rounded-pill px-5 shadow animate__animated animate__fadeInUp">
+          Explore Products
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <main>
+    <!-- Products Grid -->
+    <div id="productsRow" class="row g-3"></div>
+     <!-- Product Body Modal Bilal -->
+    <div class="product-body-modal mt" >
+        <!-- Header -->
+        <div class="bg-dark modal-header-product text-center" id="productsSection">
+          <h5 class="fw-bold fs-3">
+            <i class="fas fa-boxes-stacked me-2" style="color:#00c8ff;"></i>Our Categories
+          </h5>
+        </div>
+
+        <!-- Body -->
+        <div class="bg-about p-4">
+          <p class="text-light text-center mb-4">
+            Explore our wide range of high-quality equipment and accessories designed for photographers, videographers,
+            and creative professionals.
+          </p>
+
+          <div class="row g-4" id="productCategories">
+
+            <!-- Category Card Example -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Cameras">
+                <i class="fas fa-camera fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Cameras</h6>
+                <p class="small text-light">DSLR, Mirrorless, Film & more</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Camera Lenses">
+                <i class="fas fa-video fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Lenses</h6>
+                <p class="small text-light">Wide, Telephoto, Prime, Zoom</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Lighting & Studio">
+                <i class="fas fa-lightbulb fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Lighting</h6>
+                <p class="small text-light">Softboxes, LEDs, Flashes</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Pro Audio">
+                <i class="fas fa-microphone fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Audio</h6>
+                <p class="small text-light">Microphones, Recorders, Mixers</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Memory Cards & Media">
+                <i class="fas fa-sd-card fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Memory & Storage</h6>
+                <p class="small text-light">SD, CF, SSD, Portable Drives</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Tripods & Supports">
+          <i class="fas fa-photo-video fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Tripods & Supports</h6>
+                <p class="small text-light">Gimbals, Stands, Mounts</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Camera Bags & Cases">
+                <i class="fas fa-briefcase fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Bags & Cases</h6>
+                <p class="small text-light">Camera Bags, Hard Cases</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="category-card text-center p-3 rounded-4 shadow-sm h-100" data-category="Accessories">
+                <i class="fas fa-tools fa-3x text-info mb-3"></i>
+                <h6 class="fw-bold text-white">Accessories</h6>
+                <p class="small text-light">Filters, Cables, Cleaning Kits</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  </div>
+
+      
+  <!-- Reviews Slider Section -->
+  <div class="reviews-section product-body-modal">
+    <h3><i class="fas fa-comments" style="color:#00c8ff;"></i> Customer Reviews</h3>
+
+    <div class="slider-container">
+      <button class="slider-btn prev-btn">&#10094;</button>
+
+      <div class="slide-track" id="slideTrack">
+        <div class="review-card"><p>"Great quality cameras! Their service is fantastic."</p><h6>- Ali Raza</h6></div>
+        <div class="review-card"><p>"Fast delivery and original products. Will shop again!"</p><h6>- Hamza Khan</h6></div>
+        <div class="review-card"><p>"Best photography gear store, very helpful staff."</p><h6>- Ayesha Studio</h6></div>
+        <div class="review-card"><p>"Affordable prices and premium product quality."</p><h6>- Danish Shoots</h6></div>
+        <div class="review-card"><p>"Loved their lighting equipment collection!"</p><h6>- Sara Films</h6></div>
+        <div class="review-card"><p>"Highly satisfied with customer support."</p><h6>- Zeeshan Pro</h6></div>
+        <div class="review-card"><p>"Got my first mirrorless from here. Amazing!"</p><h6>- Talha Vision</h6></div>
+        <div class="review-card"><p>"They guided me very well! Best experience."</p><h6>- Faraz Photos</h6></div>
+        <div class="review-card"><p>"Their studio accessories are top-notch."</p><h6>- Aiman Studio</h6></div>
+        <div class="review-card"><p>"Original Nikon gear with warranty, loved it!"</p><h6>- Shoaib Captures</h6></div>
+        <div class="review-card"><p>"Fast & safe delivery every time."</p><h6>- Bilal Editz</h6></div>
+        <div class="review-card"><p>"I always get my SD cards from here."</p><h6>- Junaid Films</h6></div>
+        <div class="review-card"><p>"Tripods quality is perfect for shoots."</p><h6>- Noman Clicks</h6></div>
+        <div class="review-card"><p>"They offer genuine solutions for studios."</p><h6>- Studio Base</h6></div>
+        <div class="review-card"><p>"Best camera shop in the city 💯"</p><h6>- KB Productions</h6></div>
+      </div>
+
+      <button class="slider-btn next-btn">&#10095;</button>
+    </div>
+  </div> 
+
+
+        <!-- About Body Modal Bilal -->
+    <div class="product-body-modal">
+        <!-- Header -->
+        <div class="bg-dark modal-header-product text-center" id="aboutmodal">
+          <h5 class="modal-title fw-bold" id="aboutModalLabel">
+            <i class="fas fa-info-circle me-2"></i>About <span class="text-info">FOTOLAB</span>
+          </h5>
+        </div>
+
+        <!-- Body -->
+        <div class="bg-about p-4">
+
+          <h5 class="fw-semibold text-center mb-3">Your Trusted Partner in Imaging & Creativity</h5>
+          <p class="text-light text-center mb-4 justify-text">
+            Since <strong>1991</strong>, FOTOLAB has been a pioneer in professional imaging solutions — offering
+            everything from cameras to studio gear, all backed by expertise and service you can rely on.
+          </p>
+
+          <div class="row g-4">
+            <div class="col-md-6">
+              <h6 class="fw-bold text-white"><i class="fas fa-users me-2 text-info"></i>Who We Are</h6>
+              <p class="text-light small justify-text">
+                FOTOLAB is a dedicated hub for photographers, filmmakers, and content creators. Whether you’re a
+                hobbyist or a studio professional, we provide tailored solutions that help bring your creative vision to
+                life.
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <h6 class="fw-bold text-white"><i class="fas fa-handshake me-2 text-info"></i>What We Stand For</h6>
+              <ul class="text-light small">
+                <li><strong>Service:</strong> Customer-first approach in every purchase.</li>
+                <li><strong>Quality:</strong> Top brands and authentic gear only.</li>
+                <li><strong>Innovation:</strong> Modern technology to power creativity.</li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="row text-center gy-3">
+            <h6 class="fw-bold mb-3 text-white"><i class="fas fa-star me-2 text-info"></i>Why Choose FOTOLAB?</h6>
+
+            <div class="col-6 col-md-4">
+              <i class="fas fa-user-tie fa-2x text-info mb-2"></i>
+              <p class="small mb-0">Expert Consultation</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <i class="fas fa-tools fa-2x text-info mb-2"></i>
+              <p class="small mb-0">After-Sales Support</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <i class="fas fa-lightbulb fa-2x text-info mb-2"></i>
+              <p class="small mb-0">Creative Solutions</p>
+            </div>
+          </div>
+
+          <div class="alert  mt-4 p-3 shadow-sm">
+            <strong>Our Goal:</strong> Empower creators with the best tools and genuine knowledge — helping every click
+            tell a story worth sharing.
+          </div>
+        </div>
+    </div>
+
+    <!--  FOTOLAB Main Footer Start -->
+    <footer class="footer mt-5 text-light">
+      <div class="container py-5">
+        <div class="row gy-4">
+
+          <!-- Brand Section -->
+          <div class="col-md-3">
+            <a class="navbar-brand navbar-brand-footer" href="#"> <span class="text-info"><i id="camera-logo-footer"
+                  class="fa-regular fa-camera"></i></span>FOTOLAB</a>
+            <p class="text-secondary">
+              Your ultimate destination for premium photography gear and accessories.
+              We help you capture life’s perfect moments with style and precision.
+            </p>
+            <div>
+              <p class="mb-1"><i class="fa-solid fa-phone me-2 text-info"></i>+92 335 3278632</p>
+              <p class="mb-1"><i class="fa-solid fa-envelope me-2 text-info"></i>novaixsoftwares.com</p>
+            </div>
+            <div class="social-icons mt-3">
+              <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-2">
+            <h5 class="fw-bold mb-3 text-info">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link">Home</a></li>
+              <li><a href="#productsSection" class="footer-link">Products</a></li>
+              <li><a href="#aboutmodal" class="footer-link">About</a></li>
+              <li><a href="#" class="footer-link" data-bs-toggle="modal"
+              data-bs-target="#contactModal">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Customer Support -->
+          <div class="col-md-3">
+            <h5 class="fw-bold mb-3 text-info">Customer Support</h5>
+            <ul class="list-unstyled">
+            <li><a href="#" class="footer-link" data-bs-toggle="modal" data-bs-target="#helpCenterModal">Help Center</a></li>
+              <li><a href="#" class="footer-link" data-bs-toggle="modal" data-bs-target="#shippingReturnsModal">Shipping & Returns</a></li>
+            <li><a href="#" class="footer-link" data-bs-toggle="modal" data-bs-target="#warrantyPolicyModal">Warranty Policy</a></li>
+            <li><a href="#" class="footer-link" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a></li>
+            <li><a href="#" class="footer-link" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- Map Section (Now beside Contact Us) -->
+          <div class="col-md-4">
+            <h5 class="fw-bold mb-3 text-info">Our Location</h5>
+            <iframe class="map-footer"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.017006423878!2d67.07182317583597!3d24.8632687451443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1761404654424!5m2!1sen!2s"
+              width="100%" height="220" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <hr class="mt-5 mb-3 border-secondary">
+
+        <!-- Copyright -->
+        <div class="text-center small text-secondary">
+          © 2026 <span class="text-info fw-bold">FOTOLAB</span>. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <!--  FOTOLAB Footer End -->
+  </main>
+
+
+  <!-- PRIVACY POLICY MODAL (ENGLISH) -->
+<div class="modal fade modal-bgc" id="privacyPolicyModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+      <!-- Header -->
+      <div class="modal-header bg-dark text-white border-0">
+        <h5 class="modal-title fw-bold">
+          <i class="fas fa-user-shield me-2 text-info"></i>Privacy Policy
+        </h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body bg-nav-cards p-4 text-light">
+
+        <h5 class="fw-semibold text-center mb-4">How We Protect & Use Your Information</h5>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🔐 Personal Information</h6>
+          <p class="small">
+            We collect your name, phone number, and delivery address only to process your orders and provide support.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🛍 Order & Delivery Usage</h6>
+          <p class="small">
+            Your contact information is shared only with the delivery team to ensure successful product delivery.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🚫 No Data Selling</h6>
+          <p class="small">
+            We do NOT sell, trade, or share your personal data with any third party for marketing or advertising.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🛡 Data Safety</h6>
+          <p class="small">
+            We use secure database systems to ensure your information is safe and protected.
+          </p>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="small">If you have privacy-related questions:</p>
+
+          <a href="https://wa.me/923001234567" class="btn btn-success fw-semibold px-4 mb-2">
+            <i class="fab fa-whatsapp me-2"></i>Chat on WhatsApp
+          </a>
+          <br>
+          <a href="mailto:support@yourwebsite.com" class="btn btn-info fw-semibold px-4">
+            <i class="fas fa-envelope me-2"></i>Email Us
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+        <small class="text-light">Your trust means everything to us.</small>
+        <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- TERMS & CONDITIONS MODAL (ENGLISH) -->
+<div class="modal fade modal-bgc" id="termsModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+      <!-- Header -->
+      <div class="modal-header bg-dark text-white border-0">
+        <h5 class="modal-title fw-bold">
+          <i class="fas fa-file-contract me-2 text-info"></i>Terms & Conditions
+        </h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body bg-nav-cards p-4 text-light">
+
+        <h5 class="fw-semibold text-center mb-4">Website Usage & Ordering Agreement</h5>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">📦 Product Information</h6>
+          <p class="small">
+            We try our best to ensure that all product descriptions, images, and specifications are accurate. 
+            However, some variations may occur due to manufacturer updates.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">💲 Pricing & Orders</h6>
+          <p class="small">
+            Prices may change based on market conditions. We reserve the right to update prices or cancel any order if required.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🔐 Privacy & Data Protection</h6>
+          <p class="small">
+            Your personal information (such as name, phone, and address) is used only for order processing and support. 
+            We do not share, trade, or sell customer data.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">✅ Acceptance</h6>
+          <p class="small">
+            By browsing and placing an order on this website, you agree to the above terms and conditions.
+          </p>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="small">Need further clarification or assistance?</p>
+
+          <a href="https://wa.me/923001234567" class="btn btn-success fw-semibold px-4 mb-2">
+            <i class="fab fa-whatsapp me-2"></i>Chat on WhatsApp
+          </a>
+          <br>
+          <a href="mailto:support@yourwebsite.com" class="btn btn-info fw-semibold px-4">
+            <i class="fas fa-envelope me-2"></i>Email Us
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+        <small class="text-light">Thank you for choosing us.</small>
+        <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- WARRANTY POLICY MODAL -->
+<div class="modal fade modal-bgc" id="warrantyPolicyModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+      <!-- Header -->
+      <div class="modal-header bg-dark text-white border-0">
+        <h5 class="modal-title fw-bold">
+          <i class="fas fa-shield-alt me-2 text-info"></i>Warranty Policy
+        </h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body bg-nav-cards p-4 text-light">
+
+        <h5 class="fw-semibold text-center mb-4">Product Warranty Information</h5>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🛡 Official Warranty</h6>
+          <p class="small">
+            Humare store par listed products **official brand warranty** k sath hotay hain (jahan applicable ho).
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">💳 Warranty Claim Process</h6>
+          <p class="small">
+            Agar product warranty duration ke andar issue create kare:
+          </p>
+          <ul class="small">
+            <li>Invoice / Receipt required hoti hai</li>
+            <li>Brand service center visit karna hota hai</li>
+            <li>Repair ya replacement brand ki policy per hoti hai</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">⚠ Warranty Does Not Cover:</h6>
+          <ul class="small">
+            <li>Physical Damage / Water Damage</li>
+            <li>Burn / Mishandling</li>
+            <li>Unauthorized Repair ya Software Tampering</li>
+          </ul>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="small">Warranty help ke liye contact karein:</p>
+          <a href="https://wa.me/923001234567" class="btn btn-success fw-semibold px-4 mb-2">
+            <i class="fab fa-whatsapp me-2"></i>WhatsApp Support
+          </a>
+          <br>
+          <a href="mailto:support@fotolab.com" class="btn btn-info fw-semibold px-4">
+            <i class="fas fa-envelope me-2"></i>Email Support
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+        <small class="text-light">We care about product quality & support.</small>
+        <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- SHIPPING & RETURNS MODAL -->
+<div class="modal fade modal-bgc" id="shippingReturnsModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+      <!-- Header -->
+      <div class="modal-header bg-dark text-white border-0">
+        <h5 class="modal-title fw-bold">
+          <i class="fas fa-truck me-2 text-info"></i>Shipping & Returns
+        </h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body bg-nav-cards p-4 text-light">
+
+        <h5 class="fw-semibold text-center mb-4">Delivery & Return Information</h5>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">📦 Shipping Time</h6>
+          <p class="small">
+            Orders usually deliver within <strong>2 to 5 working days</strong> depending on your city/location.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🚚 Tracking Your Order</h6>
+          <p class="small">
+            Once your order is shipped, you will receive a <strong>Tracking Number</strong> by SMS or WhatsApp.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="fw-bold text-info">🔄 Return Policy</h6>
+          <p class="small">
+            You can return a product within <strong>7 days</strong> only if:
+          </p>
+          <ul class="small">
+            <li>Item is unused</li>
+            <li>Original packaging intact</li>
+            <li>Wrong or damaged product received</li>
+          </ul>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="small">For Return or Shipping Assistance:</p>
+          <a href="https://wa.me/923001234567" class="btn btn-success fw-semibold px-4 mb-2">
+            <i class="fab fa-whatsapp me-2"></i>Contact on WhatsApp
+          </a>
+          <br>
+          <a href="mailto:support@fotolab.com" class="btn btn-info fw-semibold px-4">
+            <i class="fas fa-envelope me-2"></i>Email Support
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+        <small class="text-light">We ensure safe and fast delivery.</small>
+        <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- HELP CENTER MODAL -->
+<div class="modal fade modal-bgc" id="helpCenterModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+      <!-- Header -->
+      <div class="modal-header bg-dark text-white border-0">
+        <h5 class="modal-title fw-bold">
+          <i class="fas fa-headset me-2 text-info"></i>Help Center
+        </h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body bg-nav-cards p-4 text-light">
+
+        <h5 class="fw-semibold text-center mb-4">How Can We Help You?</h5>
+
+        <div class="accordion" id="faqAccordion">
+
+          <!-- FAQ #1 -->
+          <div class="accordion-item bg-dark text-light border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                How do I place an order?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse">
+              <div class="accordion-body small">
+                Simply browse products, view details, and click **Add to Cart**. Then proceed to checkout through the cart.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ #2 -->
+          <div class="accordion-item bg-dark text-light border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                What is your return policy?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse">
+              <div class="accordion-body small">
+                Products can be returned within **7 days** if unused & in original packaging.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ #3 -->
+          <div class="accordion-item bg-dark text-light border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Do you offer warranty?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse">
+              <div class="accordion-body small">
+                Yes, all products come with **official brand warranty** where applicable.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+          <p class="small">Need more help? Contact our team:</p>
+          <a href="mailto:support@fotolab.com" class="btn btn-info fw-semibold px-4">
+            <i class="fas fa-envelope me-2"></i>Email Support
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+        <small class="text-light">We are here to help you 24/7</small>
+        <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- MODALS -->
+  <!-- CONTACT MODAL -->
+  <div class="modal fade modal-bgc" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content shadow-lg border-0 rounded-4 overflow-hidden">
+
+        <!-- Header -->
+        <div class="modal-header bg-dark text-white border-0">
+          <h5 class="modal-title fw-bold" id="contactModalLabel">
+            <i class="fas fa-envelope-open-text me-2 text-info"></i>Contact <span class="text-info">FOTOLAB</span>
+          </h5>
+          <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body bg-nav-cards p-4">
+          <div class="row g-4 align-items-stretch">
+
+            <!-- Left Side (Contact Info) -->
+            <div class="col-md-6">
+              <div class="bg-nav-cards rounded-4 shadow-sm p-4 h-100">
+                <h5 class="fw-semibold mb-3"><i class="fas fa-headset me-2 text-info"></i>Get in Touch</h5>
+                <p class="text-light small mb-4">
+                  Have questions or need expert advice? Our friendly support team is ready to help you choose the right
+                  gear and resolve any inquiries you may have.
+                </p>
+
+                <ul class="list-unstyled mb-4 text-light">
+                  <li class="mb-2"><i class="fas fa-map-marker-alt text-info me-2"></i>
+                    <strong>Address:</strong> FOTOLAB HQ, 123 Camera Street, Karachi, Pakistan
+                  </li>
+                  <li class="mb-2"><i class="fas fa-envelope text-info me-2"></i>
+                    <strong>Email:</strong> <a href="mailto:support@fotolab.com"
+                      class="text-decoration-none text-white">support@fotolab.com</a>
+                  </li>
+                  <li class="mb-2"><i class="fas fa-phone-alt text-info me-2"></i>
+                    <strong>Phone:</strong> +92 300 1234567
+                  </li>
+                  <li><i class="fas fa-clock text-info me-2"></i>
+                    <strong>Hours:</strong> Mon–Sat, 10:00 AM – 8:00 PM
+                  </li>
+                </ul>
+
+                <button class="btn btn-info fw-semibold w-100 py-2 mb-3" id="locateMeBtn">
+                  <i class="fas fa-map-pin me-2"></i>Show My Location
+                </button>
+
+                <div class="d-flex gap-3 mt-3 justify-content-center">
+                  <a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+                  <a href="#" class="text-white fs-4"><i class="fab fa-whatsapp"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side (Map) -->
+            <div class="col-md-6">
+              <div class="rounded-4 overflow-hidden shadow-sm h-100 border border-light">
+                <div id="map" style="width:100%; height:400px;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0170064238864!2d67.07182317583597!3d24.8632687451443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1761839276304!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="modal-footer bg-dark text-white d-flex justify-content-between">
+          <small class="text-light">© 2025 FOTOLAB — Stay Connected & Inspired</small>
+          <button class="btn btn-info text-white fw-semibold px-4" data-bs-dismiss="modal">
+            <i class="fas fa-check-circle me-1"></i> Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Details Modal (view + download) -->
+<div class="modal fade modal-bgc" id="detailsModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Product Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="detailsBody"></div>
+      <div class="modal-footer">
+        <button id="detailsDownloadBtn" class="btn detail-color">
+          <i class="fa-solid fa-download"></i> 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Compare Modal -->
+  <div class="modal fade modal-bgc " id="compareModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-md-down ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Compare Products</h5><button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body bg-nav-cards" id="compareBody">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Compare Warning Modal -->
+<div class="modal fade" id="compareWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <h5 class="mb-2">⚠️ Not Enough Products</h5>
+      <p>Select at least <b>two</b> products from <b>same category</b> to compare.</p>
+      <button type="button" class="btn view-btn" data-bs-dismiss="modal">
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORY WARNING MODAL -->
+<div class="modal fade" id="categoryWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title">Category Mismatch</h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+        Please select products from the same category!
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- LOGIN MODAL -->
+<div class="modal fade modal-bgc" id="loginModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow-lg rounded-4 overflow-hidden">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">Login</h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body login-bg-color p-4">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Password</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Enter password" required>
+          </div>
+
+          <button type="submit" class="btn btn-info w-100 fw-semibold mb-2">Login</button>
+
+          <p class="text-center  small">Don't have an account? 
+            <a href="#" class="btn-change" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signupModal">
+              Signup
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SIGNUP MODAL -->
+<div class="modal fade modal-bgc" id="signupModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow-lg rounded-4 overflow-hidden">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">Create Account</h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body login-bg-color p-4">
+        <form id="signupForm">
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control" id="signupName" placeholder="Your full name" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input type="email" class="form-control" id="signupEmail" placeholder="Your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Password</label>
+            <input type="password" class="form-control" id="signupPassword" placeholder="Password" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Re-type Password</label>
+            <input type="password" class="form-control" id="signupRePassword" placeholder="Re-enter password" required>
+          </div>
+
+          <button type="submit" class="btn btn-info w-100 fw-semibold mb-2">Create Account</button>
+
+          <p class="text-center small">Already have an account?
+            <a href="#" class="btn-change" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">
+              Login
+            </a>
+          </p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Login Wrong credetial modal-->
+
+<div class="modal fade" id="loginWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <h5 class="mb-2">Login Failed</h5>
+      <p>Incorrect email or password. Please try again.</p>
+      <button type="button" class="btn btn-info" data-bs-dismiss="modal">
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Singup passwords mismatch modal -->
+ <div class="modal fade" id="passwordWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <h5 class="mb-2">Password Mismatch</h5>
+      <p>Both passwords must match. Please re-check.</p>
+      <button type="button" class="btn btn-info" data-bs-dismiss="modal">
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Account Created Modal -->
+<div class="modal fade" id="signupSuccessModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <h5 class="mb-2">Account Created</h5>
+      <p>Your account has been created successfully. You can now log in.</p>
+      <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Password Length Modal -->
+<div class="modal fade" id="nameWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+         Name must contain only letters (no numbers allowed).
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Password Length Modal -->
+<div class="modal fade" id="passwordLengthModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+         Password must be at least 6 characters long!
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Email Warning Modal -->
+
+<div class="modal fade" id="emailWarningModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+         Email must start with a letter. Numbers or special characters before @ are not allowed!
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- PROFILE SIDEBAR -->
+<div id="profileSidebar" class="profile-sidebar bg-dark text-white">
+  <div class="sidebar-header p-3 d-flex justify-content-between align-items-center">
+    <h5 id="sidebarUserName" class="mb-0">User Name</h5>
+    <button class="btn btn-sm btn-outline-light" id="closeSidebar">&times;</button>
+  </div>
+
+  <div class="p-4">
+    <div class="text-center mb-3">
+      <div id="userInitial" 
+           class="rounded-circle bg-info text-dark fw-bold d-flex justify-content-center align-items-center"
+           style="width:100px;height:100px;font-size:40px;">
+      </div>
+
+      <h6 id="userName" class="mt-2">Bilal Ahmed</h6>
+      <p id="userEmail" class="small text-secondary">bilal@example.com</p>
+    </div>
+  
+  <!-- Settings collapsible menu -->
+    <a href="#" class="text-light d-block mb-2 settings-toggle">
+    </a>
+    <button id="logoutBtn" class="btn btn-info text-dark fw-semibold w-100 mt-3">
+      <i class="fas fa-sign-out-alt me-1"></i> Logout
+    </button>
+  </div>
+</div>
+
+
+  <!-- Bootstrap + Leaflet + Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+  <script src="script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const track = document.getElementById("slideTrack");
+      let cards = Array.from(track.children);
+      let index = 0;
+      let autoSlide;
+      let isHolding = false;
+
+      // Duplicate slides for infinite loop effect
+      track.innerHTML += track.innerHTML;
+      cards = Array.from(track.children);
+
+      function cardWidth() {
+        return cards[0].offsetWidth + 20; // card width + gap
+      }
+
+      function move() {
+        track.style.transform = `translateX(-${index * cardWidth()}px)`;
+      }
+
+      function next() {
+        index++;
+        if (index >= cards.length / 2) {
+          index = 0; // seamless reset to start
+          track.style.transition = "none";
+          track.style.transform = `translateX(0)`;
+          setTimeout(() => (track.style.transition = "transform 0.6s ease"), 50);
+        } else {
+          move();
+        }
+      }
+
+      function prev() {
+        if (index <= 0) {
+          index = cards.length / 2 - 1;
+          track.style.transition = "none";
+          track.style.transform = `translateX(-${index * cardWidth()}px)`;
+          setTimeout(() => (track.style.transition = "transform 0.6s ease"), 50);
+        } else {
+          index--;
+          move();
+        }
+      }
+
+      // Auto move every 800ms (3x faster)
+      function startAutoSlide() {
+        autoSlide = setInterval(next, 1200);
+      }
+
+      function stopAutoSlide() {
+        clearInterval(autoSlide);
+      }
+
+      startAutoSlide();
+
+      // Next/Prev buttons — don't stop auto-scroll
+      document.querySelector(".next-btn").addEventListener("click", next);
+      document.querySelector(".prev-btn").addEventListener("click", prev);
+
+      // Stop on hold (mousedown) and resume on release
+      cards.forEach(card => {
+        card.addEventListener("mousedown", () => {
+          isHolding = true;
+          stopAutoSlide();
+        });
+
+        card.addEventListener("mouseup", () => {
+          if (isHolding) {
+            isHolding = false;
+            startAutoSlide();
+          }
+        });
+
+        // For mobile touch events
+        card.addEventListener("touchstart", () => {
+          isHolding = true;
+          stopAutoSlide();
+        });
+
+        card.addEventListener("touchend", () => {
+          if (isHolding) {
+            isHolding = false;
+            startAutoSlide();
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
